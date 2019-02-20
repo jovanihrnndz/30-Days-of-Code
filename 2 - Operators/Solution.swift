@@ -8,4 +8,4 @@ let tip = Double(tipPercent) * mealCost / 100
 let tax = Double(taxPercent) * mealCost / 100
 
 let totalCost = tip + tax + mealCost
-print("The total meal cost is \(Int(totalCost.rounded())) dollars.")
+print(Int(totalCost.rounded()))
